@@ -1,0 +1,375 @@
+body{
+   display: flex;
+   flex-flow: column ;
+   justify-content: center;
+   font-family: Arial, Helvetica, sans-serif;
+   margin:0;
+   background-color: #fbfcf8;
+}
+header #logo{
+    
+    font-size: xx-large;
+    font-weight: bold;
+    
+    justify-self: center;
+
+
+}
+header{
+    display: flex;
+    text-transform: capitalize;
+    background-color: #fff9e3;
+    margin: 0;
+padding: 20px;
+justify-content: space-between;
+}
+header span{
+    font-size: large;
+    font-weight: bold;
+    
+    justify-self: center;
+
+}
+ #catg{
+    font-size: large;
+    font-weight: bold;
+    color:#DE3163;
+ width: 100%;
+text-align: center;
+
+}
+#painting{
+    height: 300px;
+    display: flex;
+    width: 100%;
+
+       justify-content: center;
+
+    margin: 0;
+    flex-grow: 0;
+   
+}
+
+#oneerror{
+    height: 10px;
+    width: 100px;
+    margin: 0;
+    background-color: #0B1215;
+    position: relative;
+    top:250px;
+  left:55px;
+  opacity: 0;
+  transition: 0.2s;
+
+
+}
+#twoerror{
+    height: 200px;
+    width: 10px;
+    position: relative;
+    top:60px;
+    background-color: #0B1215;
+    margin: 0;
+    opacity: 0;
+    transition: 0.2s;
+}
+#threeerror{
+    height: 10px;
+    width: 200px;
+    position: relative;
+    top: 50px;
+    right :10px;
+    background-color: #0B1215;
+    margin: 0;
+    opacity: 0;
+     transition: 0.2s;
+}
+#fourerror{
+    height: 50px;
+    width: 10px;
+    position: relative;
+    top: 60px;
+    right: 20px;
+    background-color: #0B1215;
+    margin: 0;
+    opacity: 0; transition: 0.2s;
+}
+#fiveerror{
+    position: relative;
+    border-radius: 100%;
+    top: 4px;
+    right: 67px;
+    padding: 40px;
+  border-radius: 100%;
+    border-color: #0B1215;
+    margin: 0;
+    border:5px  solid ;
+    border-style: dashed;
+    align-self: center;
+    rotate: 10deg;
+    opacity: 0; transition: 0.2s;
+}
+#sixerror{
+    height: 50px;
+    width: 5px;
+    top: 185px;
+    right: 163px;
+    position: relative;
+    background-color: #0B1215; margin: 0;
+    
+    opacity: 0; transition: 0.2s;
+}
+#sevenerror{
+    height: 40px;
+    width: 5px;
+    rotate: 30deg;
+    position: relative;
+    background-color: #0B1215;
+    margin: 0;
+    top: 200px;
+    opacity: 0;
+    right: 181px; transition: 0.2s;
+}
+#eighterror{
+    height: 40px;
+    width: 5px;
+    rotate: -30deg;
+    position: relative;
+    background-color: #0B1215;
+    top: 200px;
+    right: 160px;
+    opacity: 0; transition: 0.2s;
+}
+#nineerror{
+    height: 60px;
+    width: 5px;
+    rotate: 30deg;
+    position: relative;
+    background-color: #0B1215;
+    top: 228px;
+    right: 194px;
+    opacity: 0; transition: 0.2s;
+    
+}
+#tenerror{
+    height: 60px;
+    width: 5px; margin: 0;
+    rotate: -30deg;
+    position: relative;
+    background-color: #0B1215;
+    top: 228px;
+    right: 168px;
+    opacity: 0; transition: 0.2s;
+ 
+}
+#werror{
+    border-radius: 100%; margin: 0;
+    padding: 20px;
+    flex-shrink: unset;
+   align-self: center;
+  border-radius: 100%;
+    border-color: #0B1215;
+    position: relative;
+    top: 15px;
+    opacity: 0;
+    right: 136px;
+   
+    border:5px solid; transition: 0.2s;
+
+}
+.wrong-0 #oneerror{
+     opacity: 1;
+}
+.wrong-1 #twoerror{
+   opacity: 1;
+}
+.wrong-2 #threeerror{
+   opacity: 1;
+}
+.wrong-3 #fourerror{
+ opacity: 1;
+}
+.wrong-4 #fiveerror{
+   opacity: 1;
+}
+.wrong-5 #werror{
+  opacity: 1;
+}
+.wrong-6 #sixerror{
+    opacity: 1;
+}
+.wrong-7 #sevenerror{
+  opacity: 1;
+}
+.wrong-8 #eighterror{
+   opacity: 1;
+}
+.wrong-9 #nineerror{
+     opacity: 1;
+}
+.wrong-10 #tenerror{
+    opacity: 1;
+}
+
+#words{
+display: grid;
+grid-template-columns: repeat(auto-fit,50px);
+grid-template-rows:  repeat(auto-fit,50px);
+
+column-gap: 10px;
+row-gap: 30px;
+justify-content: center;
+margin-left: 30%;
+align-items: center;
+max-height: 600px;
+max-width: 40%;
+
+
+
+
+}
+.allatone{
+    position: relative;
+    
+}
+.word{
+    background-color: #0B1215;
+    color:#fbfcf8;
+    height: 30px;
+    cursor: pointer;
+  
+   font-size: 22px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10%;
+    transition: 0.2s;
+    
+  
+}
+.word:hover{
+    background-color: #fff9e3;
+    color:#0B1215;
+   
+ 
+  
+}
+main {
+    display: flex;
+    flex-flow: row wrap;
+    gap:30px;
+
+}
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+
+
+#gess{
+    display: flex;
+    flex-flow: row ;
+   width: 100%;
+   height: fit-content;
+  justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin :10px;
+  
+}
+
+
+#gess .span{
+    width: 50px;
+    display: flex;
+    height: 50px;
+    left:60%;
+    top:20%;
+    background-color: #91A3B0;
+    color: #0B1215;
+    font-size: large;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px;
+    
+}
+#gess .span::before{
+    content: '';
+        background-color: #0B1215;
+        position: absolute;
+        top:535px;
+        width: 70px;
+        height: 4px;
+       
+    
+    }
+
+.clicked{
+    background-color:#899499 ;
+    pointer-events: none;
+  
+}
+.finish{
+    pointer-events: none;
+}
+
+#statuspop{
+    z-index: 5;
+    position: fixed;
+    height: 200px;
+    width: 100%;
+    background-color: antiquewhite;
+ margin-top: 190px;
+ box-shadow: 2px 2px 2px 3px #0B1215;
+
+
+transition: 0.2;
+}
+.gf{
+    opacity: 1;
+   }
+   #statuspop{
+   
+    display: none;
+
+    flex-flow: column wrap ;
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+
+   }
+   #statuspop button{
+
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+
+      margin-left: 40%;
+      border-radius: 30px;
+      background-color:#4FFFB0 ;
+      margin-right: 40%;
+      transition: 0.2s;
+      padding: 15px;
+      
+     }
+     #statuspop button:hover{
+
+     scale: 1.005;
+        background-color:#4FFFB0 ;
+        
+
+        
+       }
+       .spacetrue{
+
+ 
+        background-color: #DE3163;
+        width: 20px;
+        height: 4px;
+    
+    
+    }
